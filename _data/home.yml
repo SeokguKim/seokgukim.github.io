@@ -1,14 +1,14 @@
 navbar_entries:
-  - title: about
+  - title: About
     url: about
 
-  - title: blog
+  - title: Blog
     url: blog
 
 project_entries:
   - title: OA Functions
     url: overview-post
-    desc: 경영과학 함수들을 구현했습니다
+    desc: 경영과학 함수들
 old_project_entries:
 
 footer_entries:
