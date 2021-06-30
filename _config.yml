@@ -1,6 +1,6 @@
 stitle: SeokguKimWritesSomething
 author: SeokguKIm
-url: https://seokgukim.github.io # root address of the site
+url: SeokguKimWritesSomething # root address of the site
 description: > # description of the site (multiple lines allowed)
   A BA Student with Litte Understanding in Programming
 permalink: /:slug.html
