@@ -3,7 +3,7 @@ author: SeokguKim
 url: seokgukim.github.io # root address of the site
 email: rokja97@naver.com
 description: SeokguKim(Seungrok Lee)'s own blog!
-favicon: "./logo.png" # relative path to site's favicon
+favicon: "./assets/icon.svg" 
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
