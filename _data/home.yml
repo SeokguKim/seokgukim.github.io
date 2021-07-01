@@ -9,6 +9,7 @@ project_entries:
   - title: OR Functions
     url: orfunctions
     desc: 경영과학 함수들
+    highlight: WIP
     
 old_project_entries:
 
