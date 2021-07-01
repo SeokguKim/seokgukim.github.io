@@ -31,4 +31,4 @@ I can understand intermediate English and advanced Japanese, with Korean as my m
 
 あるほどの英語と日本語は聞き取れる韓国人です。
 
-Email: rokja97@naver.com
+>Email: rokja97@naver.com
