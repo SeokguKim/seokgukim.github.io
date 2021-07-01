@@ -30,3 +30,5 @@ I can understand intermediate English and advanced Japanese, with Korean as my m
 現在僕はソウル市立大学の経営学部で勉強中で、経営科学とプログラミングに興味を持ってます。
 
 あるほどの英語と日本語は聞き取れる韓国人です。
+
+Email: rokja97@naver.com
