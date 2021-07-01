@@ -7,7 +7,7 @@ navbar_entries:
 
 project_entries:
   - title: OR Functions
-    url: orfunctions.html
+    url: orfunctions
     desc: 경영과학 함수들
     highlight: WIP
     
