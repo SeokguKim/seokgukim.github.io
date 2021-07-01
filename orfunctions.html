@@ -19,6 +19,81 @@
         margin:10px;
         color: lightgray;
     }
+    .lang{
+        position: absolute;
+        top: 3% ;
+        float: right;
+        margin:10px;
+        color: silver;
+    }
+.modal {
+  display: none ; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #9999B2;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+  color: white;
+}
 </style>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -26,10 +101,107 @@
     <title>SeokguKim's OR Functions</title>
   </head>
   <body>
+
+  <div class="modal" id="LPm">
+  <div class="modal-content">
+  <div class="modal-header">
+    <span class="close" id="cls1">&times;</span>
+    <h4>Linear Programming</h4>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+    <p>SeokguKIm</p>
+  </div>
+</div>
+</div>
+
+<div class="modal" id="IMm">
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close" id="cls2">&times;</span>
+    <h4>Inventory Model</h4>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+    <p>SeokguKIm</p>
+  </div>
+</div>
+</div>
+
+<div class="modal" id="IPm">
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close" id="cls3">&times;</span>
+    <h4>Interger Programming</h4>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+    <h3>Modal Footer</h3>
+  </div>
+</div>
+</div>
+
+<div class="modal" id="CPMm">
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close" id="cls4">&times;</span>
+    <h4>Critical Path Method</h4>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+     <p>SeokguKIm</p>
+  </div>
+</div>
+</div>
+
+<div class="modal" id="NMm">
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close" id="cls5">&times;</span>
+    <h4>Network Model</h4>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+     <p>SeokguKIm</p>
+  </div>
+</div>
+</div>
+
+<div class="modal" id="QMm">
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close" id="cls6">&times;</span>
+    <h4>Queing Model</h4>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+    <p>SeokguKIm</p>
+  </div>
+</div>
+</div>
     <div style="padding: 10px; margin: 10px; border-radius: 20px;  background-color: #F0F0F6;" class="d-flex flex-column min-vh-100 justify-content-center align-items-center text-center">
+    <span style="right: 10%;" class="lang">한국어</span><span style="right: 5%;"class="lang">English</span>
     <div style="width: 90%; padding: 10px; margin: 20px; background-color: #9999B2; border-radius: 10px; color:white; font-weight: bold" class="h1"><p>김석구의 경영과학 함수</p>
     <p>SeokguKim's OR Functions</p></div>
- 
+
     <div style="width: 90%;" class="container h-30">
   <div class="row gx-5">
     <div class="col">
@@ -45,10 +217,10 @@
 <div style="width: 90%;" class="container h-30">
 <div class="row gx-5">
     <div class="col">
-     <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="LP" onclick="LP()">선형계획법 Linear Programming</div>
+     <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="LP">선형계획법 Linear Programming</div>
     </div>
     <div class="col">
-      <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="IM" onclick="IM()">재고관리모형 Inventory Model</div>
+      <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="IM">재고관리모형 Inventory Model</div>
     </div>
   </div>
 </div>
@@ -58,10 +230,10 @@
 <div style="width: 90%;" class="container h-30">
 <div class="row gx-5">
     <div class="col">
-     <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="IP" onclick="IP()">정수계획법 Interger Programming</div>
+     <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="IP">정수계획법 Interger Programming</div>
     </div>
     <div class="col">
-      <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="CPM" onclick="CPM()">프로젝트관리모형 Critical Path Method</div>
+      <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="CPM">프로젝트관리모형 Critical Path Method</div>
     </div>
   </div>
 </div>
@@ -70,10 +242,10 @@
 <div style="width: 90%;" class="container h-30">
 <div class="row gx-5">
     <div class="col">
-     <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="NM" onclick="NM">네트워크모형 Network Model</div>
+     <div style="border-radius: 10px; color: black; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="NM">네트워크모형 Network Model</div>
     </div>
     <div class="col">
-      <div style="border-radius: 10px; color: vlack; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="QM" onclick="QM">대기행렬모형 Queing Model</div>
+      <div style="border-radius: 10px; color: vlack; background-color: #D7D7DE; cursor: pointer;" class="p-2" id="QM">대기행렬모형 Queing Model</div>
     </div>
   </div>
 <div style="height: 20px;"></div>
@@ -108,24 +280,67 @@
     document.getElementById("QM").addEventListener("mouseover",function(e){e.target.style.backgroundColor="lightblue";})
     document.getElementById("QM").addEventListener("mouseout",function(e){e.target.style.backgroundColor="#D7D7DE";})
     
-    function LP(){
-        window.location.href="LP.html";
-    }
-    function IM(){
-       window.location.href="IM.html";
-    }
-    function IP(){
-        window.location.href="IP.html";
-    }
-    function CPM(){
-        window.location.href="CPM.html";
-    }
-    function NM(){
-        window.location.href="NM.html";
-    }
-    function QM(){
-        window.location.href="QM.html";
-    }
+    var lp = document.getElementById("LP");
+    var im = document.getElementById("IM");
+    var ip = document.getElementById("IP");
+    var cpm = document.getElementById("CPM");
+    var nm = document.getElementById("NM");
+    var qm = document.getElementById("QM");
+    
+    var lpm = document.getElementById("LPm");
+    var imm = document.getElementById("IMm");
+    var ipm = document.getElementById("IPm");
+    var cpmm = document.getElementById("CPMm");
+    var nmm = document.getElementById("NMm");
+    var qmm = document.getElementById("QMm");
+
+// Get the <span> element that closes the modal
+var cls1 = document.getElementById("cls1");
+var cls2 = document.getElementById("cls2");
+var cls3 = document.getElementById("cls3");
+var cls4 = document.getElementById("cls4");
+var cls5 = document.getElementById("cls5");
+var cls6 = document.getElementById("cls6");
+
+// When the user clicks on the button, open the modal
+lp.onclick = function() {
+  lpm.style.display = "block";
+}
+im.onclick = function() {
+  imm.style.display = "block";
+}
+ip.onclick = function() {
+  ipm.style.display = "block";
+}
+cpm.onclick = function() {
+  cpmm.style.display = "block";
+}
+nm.onclick = function() {
+  nmm.style.display = "block";
+}
+qm.onclick = function() {
+  qmm.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+cls1.onclick = function() {
+  lpm.style.display = "none";
+}
+cls2.onclick = function() {
+  imm.style.display = "none";
+}
+cls3.onclick = function() {
+  ipm.style.display = "none";
+}
+cls4.onclick = function() {
+  cpmm.style.display = "none";
+}
+cls5.onclick = function() {
+  nmm.style.display = "none";
+}
+cls6.onclick = function() {
+  qmm.style.display = "none";
+}
+
     </script>
   </body>
 </html>
