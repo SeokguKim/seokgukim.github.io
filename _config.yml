@@ -1,12 +1,7 @@
 title: SeokguKimWritesSomething
 url: seokgukim.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  SeokguKim(also called as Seungrok Lee or Rock) is a BA Student, who rather write than speak.
-  
-  말하기보다 쓰는걸 좋아하는 경영학도 김석구(이승록)입니다.
-  
-  話すより書く経営学部学生のキムソックグ（李承録）です。
-
+말하기보단 쓰고 보는, 김석구(이승록)입니다.
 favicon: "./logo.png" # relative path to site's favicon
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
