@@ -6,9 +6,10 @@ navbar_entries:
     url: blog
 
 project_entries:
-  - title: OA Functions
-    url: overview-post
+  - title: OR Functions
+    url: orfunctions
     desc: 경영과학 함수들
+    
 old_project_entries:
 
 footer_entries:
