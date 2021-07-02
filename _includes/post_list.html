@@ -4,11 +4,9 @@
     
     <div class="post-wrapper">
       <a href="{{ post.url | relative_url }}">
-      <li class="post-list-item">
         <span class="home-date">
           {{ post.date | date: site.theme_config.date_format }}»
-        </span>|<span>{{ post.title }}</span>
-      </li>
+        </span><span>{{ post.title }}</span>
       </a>
       </div>
     {% endfor %}
