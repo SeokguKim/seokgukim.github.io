@@ -25,11 +25,6 @@ layout: default
         </span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>
-  {% for tag in site.post.tags %}
-   <span class="tag" data-tag="{{tag}}">
-    {{ format[tag] }}
-  </span>
-{% endfor %}
   </ul>
 {% endfor %}
 
