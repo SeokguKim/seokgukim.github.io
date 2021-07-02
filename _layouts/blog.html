@@ -54,4 +54,13 @@ function filterByTagName(tagName) {
   $(`.tag`).removeClass('selected');
   $(`.tag[data-tag=${tagName}]`).addClass('selected');
 }
+    $(document).ready(function() {
+  let currentTag = "";
+  const queryTag = getQuery().tag;
+  if (queryTag) {
+    currentTag = queryTag;
+    filterByTagName(currentTag)
+  }
+});
+
 </script>
