@@ -26,12 +26,12 @@ pre, code {
 }
 
 .post-wrapper{
-  margin: 10px;
   height: 50px;
-  border: solid;
+  border: 1px solid;
   border-color: silver;
   border-radius: 10px;
-  display:inline-block;
+  float: top;
+  margin: 10px;
 }
 
 .hidden{
