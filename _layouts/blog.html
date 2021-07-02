@@ -6,12 +6,13 @@ layout: default
 <header>
   <h1>{{ site.title }}</h1>
 </header>
+<p>
 {% for tag in site.data.tags %}
   <span class="tag" data-tag="{{tag}}">
     {{ site.data.format[tag] }}
   </span>
 {% endfor %}
-<br>
+</p>
 {% for post in site.posts %}
     <ul
      {% if post.tags %}
@@ -25,12 +26,13 @@ layout: default
         </span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>
-      <br>
+      <p>
      {% for tad in post.tags %}
       <span class="tag">
     {{ post.format[tag] }}
-  </span>
+        </span>
       {% endfor %}
+      </p>
   </ul>
 {% endfor %}
 
