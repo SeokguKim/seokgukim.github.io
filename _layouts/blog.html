@@ -3,23 +3,6 @@ layout: default
 ---
 <head>
      <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-     <script type="text/javascript">
-$("[data-tag]").click((e) => {
-  currentTag = e.target.dataset.tag;
-  filterByTagName(currentTag);
-})
-
-function filterByTagName(tagName) {
-  $('.hidden').removeClass('hidden');
-  $('.post-wrapper').each((index, elem) => {
-    if (!elem.hasAttribute('data-${tagName}')) {
-      $(elem).addClass('hidden');
-    }
-  });
-  $('.tag').removeClass('selected');
-  $('.tag[data-tag=${tagName}]').addClass('selected');
-}
-</script>
 </head>
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 
@@ -50,3 +33,20 @@ function filterByTagName(tagName) {
 {% endfor %}
 
 
+<script>
+$("[data-tag]").click((e) => {
+  currentTag = e.target.dataset.tag;
+  filterByTagName(currentTag);
+})
+
+function filterByTagName(tagName) {
+  $('.hidden').removeClass('hidden');
+  $('.post-wrapper').each((index, elem) => {
+    if (!elem.hasAttribute('data-${tagName}')) {
+      $(elem).addClass('hidden');
+    }
+  });
+  $('.tag').removeClass('selected');
+  $('.tag[data-tag=${tagName}]').addClass('selected');
+}
+</script>
