@@ -27,7 +27,7 @@ layout: default
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>
       <p>
-     {% for tad in post.tags %}
+     {% for tag in post.tags %}
       <span class="tag">
     {{ post.format[tag] }}
         </span>
