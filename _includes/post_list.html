@@ -56,7 +56,3 @@ function getQuery() {
 {% endif %}
 }
 
-function updateQueryString(tagName) {
-  const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
-  window.history.replaceState({ path }, '', path);
-}
