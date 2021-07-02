@@ -49,6 +49,7 @@ pre, code {
 .selected{
   animation-name: tagslt;
   animation-duration: 1s;
+  fill-mode: forwards
   animation-iteration-count: 1;
 }
 
