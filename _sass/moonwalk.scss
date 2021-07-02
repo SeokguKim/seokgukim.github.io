@@ -15,7 +15,7 @@ pre, code {
   font-size: 0.9rem;
 }
 
-span.tag{
+.tag{
   margin: 5px;
   font-size: 10px;
   border-radius: 5px;
@@ -23,6 +23,10 @@ span.tag{
   color: white;
   display: inline-block;
   padding: 3px;
+}
+
+.hidden{
+  display: none;
 }
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
