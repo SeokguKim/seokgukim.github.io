@@ -24,8 +24,7 @@ layout: default
     </article>
   </div>
 {% endfor %}
-
-<script type="text/javascript">
+<script>
 $("[data-tag]").click((e) => {
   currentTag = e.target.dataset.tag;
   filterByTagName(currentTag);
