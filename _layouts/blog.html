@@ -39,26 +39,4 @@ function filterByTagName(tagName) {
     </article>
   </div>
     
-    $(document).ready(function() {
-  let currentTag = "";
-  const queryTag = getQuery().tag;
-  if (queryTag) {
-    currentTag = queryTag;
-    filterByTagName(currentTag)
-  }
-});
-    function getQuery() {
-    {% if page.tags %}
-  {% for tag in page.tags %}
-    {% if site.data.tags contains tag %}
-      <a href="/posts/?tag={{ tag }}">
-        <span class="tag">{{ site.data.format[tag] }}</span>
-      </a>
-    {% endif %}
-  {% endfor %}
-{% endif %}
-    }
-    function updateQueryString(tagName) {
-  const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
-  window.history.replaceState({ path }, '', path);
-}
+   
