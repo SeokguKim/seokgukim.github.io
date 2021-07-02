@@ -3,6 +3,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+$("[data-tag]").click((e) => {
+  currentTag = e.target.dataset.tag;
+  filterByTagName(currentTag);
+})
+
+function filterByTagName(tagName) {
+  $('.hidden').removeClass('hidden');
+  $('.post-wrapper').each((index, elem) => {
+    if (!elem.hasAttribute(`data-${tagName}`)) {
+      $(elem).addClass('hidden');
+    }
+  });
+  $(`.tag`).removeClass('selected');
+  $(`.tag[data-tag=${tagName}]`).addClass('selected');
+}
+</script>
   <title>
     {% if page.title %}
       {{ page.title }}
