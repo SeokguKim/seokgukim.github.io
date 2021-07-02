@@ -25,6 +25,13 @@
         </div>
       </div>
     </main>
-        <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    {%- if site.soopr -%}
+      {%- if site.soopr.publish_token and jekyll.environment == "production" -%}
+        <script async defer data-soopr-token="{{site.soopr.publish_token}}" src="https://sdk.soopr.co/soopr.js"></script>
+      {%- else -%}
+        <script async defer src="https://sdk.soopr.co/soopr.js"></script>
+      {%- endif -%}
+    {%- endif -%}
   </body>
 </html>
