@@ -3,8 +3,8 @@
     {% for post in site.posts %}
     
     <div class="post-wrapper">
+      <a href="{{ post.url | relative_url }}">
       <li class="post-list-item">
-        <a href="{{ post.url | relative_url }}">
         <span class="home-date">
           {{ post.date | date: site.theme_config.date_format }}»
         </span>|<span>{{ post.title }}</span>
