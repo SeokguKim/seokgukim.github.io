@@ -26,6 +26,7 @@ layout: default
   </div>
 {% endfor %}
 
+<script>
 $("[data-tag]").click((e) => {
   currentTag = e.target.dataset.tag;
   filterByTagName(currentTag);
@@ -41,5 +42,5 @@ function filterByTagName(tagName) {
   $(`.tag`).removeClass('selected');
   $(`.tag[data-tag=${tagName}]`).addClass('selected');
 }
-    
+</script>
    
