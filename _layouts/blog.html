@@ -21,7 +21,12 @@ layout: default
       {% endfor %}
     {% endif %}>
     <article class="post-preview">
-      $("[data-tag]").click((e) => {
+     ...
+    </article>
+  </div>
+{% endfor %}
+
+$("[data-tag]").click((e) => {
   currentTag = e.target.dataset.tag;
   filterByTagName(currentTag);
 })
@@ -36,10 +41,5 @@ function filterByTagName(tagName) {
   $(`.tag`).removeClass('selected');
   $(`.tag[data-tag=${tagName}]`).addClass('selected');
 }
-    </article>
-  </div>
-{% endfor %}
-
-
     
    
