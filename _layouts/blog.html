@@ -1,38 +1,10 @@
 ---
 layout: default
 ---
-<head>
-      <script>
-  {% include tags.js %}
-</script>
-</head>
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 
 <header>
   <h1>{{ site.title }}</h1>
 </header>
 
-{% for tag in site.data.tags %}
-  <span class="tag" data-tag="{{tag}}">
-    {{ site.data.format[tag] }}
-  </span>
-{% endfor %}
-    <br>
-   {% for post in site.posts %}
-  <div class="post-wrapper"
-    {% if post.tags %}
-      {% for tag in post.tags %}
-        data-{{ tag }}
-      {% endfor %}
-    {% endif %}
-      <li class="post-list-item">
-    <span class="home-date">
-          {{ post.date | date: site.theme_config.date_format }}»
-        </span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </li>
-  </div>
-{% endfor %}
-
-
-
+{% include post_list.html %}
