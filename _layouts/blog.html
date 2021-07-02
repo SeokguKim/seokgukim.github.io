@@ -29,7 +29,7 @@ layout: default
       <p>
      {% for tag in post.tags %}
       <span class="tag" data-tag="{{tag}}">
-    {{ post.format[tag] }}
+    {{ site.data.format[tag] }}
         </span>
       {% endfor %}
       </p>
