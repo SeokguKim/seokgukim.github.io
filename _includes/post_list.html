@@ -1,11 +1,5 @@
 {% if site.posts.size > 0 %}
   <ul>
-    {% for tag in site.data.tags %}
-  <span class="tag" data-tag="{{tag}}">
-    {{ site.data.format[tag] }}
-  </span>
-{% endfor %}
-    <br>
     {% for post in site.posts %}
       <li class="post-list-item">
         <span class="home-date">
