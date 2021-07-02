@@ -6,6 +6,12 @@ layout: default
 <header>
   <h1>{{ site.title }}</h1>
 </header>
+{% for tag in site.data.tags %}
+  <span class="tag" data-tag="{{tag}}">
+    {{ site.data.format[tag] }}
+  </span>
+{% endfor %}
+<br>
 {% for post in site.posts %}
   <li class="post-list-item"
     {% if post.tags %}
@@ -13,7 +19,7 @@ layout: default
         data-{{ tag }}
       {% endfor %}
     {% endif %}>
-    
+    ...
   </li>
 {% endfor %}
-{% include post_list.html %}
+
