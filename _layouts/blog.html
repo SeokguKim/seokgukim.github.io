@@ -14,12 +14,13 @@ layout: default
 {% endfor %}
 </p>
 {% for post in site.posts %}
-    <ul
+    <div class="post-cont"
      {% if post.tags %}
       {% for tag in post.tags %}
         data-{{ tag }}
       {% endfor %}
     {% endif %}>
+      <ul>
 <li class="post-list-item">
      <span class="home-date">
           {{ post.date | date: site.theme_config.date_format }}»
@@ -34,5 +35,6 @@ layout: default
       {% endfor %}
       </p>
   </ul>
+</div>
 {% endfor %}
 
