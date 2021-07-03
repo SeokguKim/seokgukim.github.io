@@ -4,7 +4,7 @@
   <body>
           
     <main class="page-content" aria-label="Content">
-            <div class="container-fluid" id="navbar">
+            <div class="container-fluid">
             <nav class="navbar navbar-expand-xl navbar-light">
                     <a class="nbar-brand" href="/">SeokguKimWrites</a>
                     <div class="d-flex flex-row-reverse">
@@ -45,22 +45,6 @@
         <script async defer src="https://sdk.soopr.co/soopr.js"></script>
       {%- endif -%}
     {%- endif -%}
-          <script>
-                  $(document).ready(function() {
-    $(window).scroll(function() {
-        var windowpos = $(window).scrollTop();
-        var navbar = $('#navbar');
-
-        // if win >= navbar and not already a sticky
-        if (windowpos >= navbar.position().top && !navbar.hasClass("navbar-fixed-top") ) {
-            navbar.addClass("navbar-fixed-top");
-
-        // if win <= navbar and is a sticky
-        } else if( windowpos <= navbar.position().top && navbar.hasClass("navbar-fixed-top")  ) {
-            navbar.removeClass("navbar-fixed-top");
-        }
-    });
-});
-          </script>
+      
   </body>
 </html>
