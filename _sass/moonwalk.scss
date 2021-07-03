@@ -277,6 +277,7 @@ background-color: transparent;
   float: right;
   border: 2px transparent solid;
   outline: none;
+  overflow: auto;
 }
 
 .hamburgering{
@@ -285,5 +286,4 @@ background-color: transparent;
   height: 4px;
   margin: 6px, 0;
   border-radius: 2px;
-  padding: 0.1px;
 }
