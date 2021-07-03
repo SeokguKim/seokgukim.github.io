@@ -154,10 +154,6 @@ blockquote {
   background-color: var(--bg-secondary);
   border: 1px var(--border) solid;
 }
-a {
-  color: var(--links);
-}
-*:target { background-color: var(--bg-secondary); }
 
 html.transition,
 html.transition *,
@@ -237,6 +233,7 @@ p code, li code {
   }
   a:hover {
     color: var(--links);
+     text-decoration: none;
   }
 
 
