@@ -171,9 +171,7 @@ html.transition *:after {
   padding: 4px;
   cursor: pointer;
   margin: 1em;
-  position: fixed;
-  right: 0;
-  top: 0;
+  float: right;
   border: 2px transparent solid;
   outline: none;
 }
@@ -262,11 +260,28 @@ p code, li code {
   position: fixed;
   top: 0;
 }
-.mynavbar a {
+.mynavbar h2{
   float: left;
   display: block;
   color: var(--headings);
   text-align: center;
   padding: 15px;
   text-decoration: none;
+}
+.hamgurger{
+background-color: transparent;
+  padding: 4px;
+  cursor: pointer;
+  margin: 1em;
+  float: right;
+  border: 2px transparent solid;
+  outline: none;
+}
+
+.hamburgering{
+  background-color: var(--headings);
+  width: 35px;
+  height: 5px;
+  margin: 6px, 0;
+  border-radius: 2px;
 }
