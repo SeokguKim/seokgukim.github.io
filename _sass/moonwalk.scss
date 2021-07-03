@@ -229,6 +229,7 @@ p code, li code {
   color: var(--text);
   margin: 8em auto -4em auto;
   text-align: center;
+  }
   a {
     color: var(--text);
     text-decoration: none;
@@ -237,7 +238,7 @@ p code, li code {
   a:hover {
     color: var(--links);
   }
-}
+
 
 .PageNavigation {
   font-size: 14px;
