@@ -6,11 +6,10 @@
     <main class="page-content" aria-label="Content">
             <nav style="background-color: var(--bg); position: fixed; top: 0; width: 100%; z-index: 1000;" class="navbar navbar-expand-xl navbar-light is-visible" data-nav-status="toggle">
                     <a href="/"><span class="brandlogo">SeokguKim's Garage</span></a>
-                    <div class="d-flex flex-row-reverse">
+
                    {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}
         {% endif %}
-                            </div>
                     <button class="navbar-toggler custom-toggler ml-auto hamburger" type="button" data-toggle="collapse" data-target="#navbaritems" aria-expand="false" aria-label="toggle navigation">
                             &nbsp&nbsp&nbsp
                     </button>
