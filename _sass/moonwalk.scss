@@ -27,7 +27,6 @@ pre, code {
   display: inline-block;
   cursor: pointer;
   opacity: 0.3;
-  transiton: all 1s;
 }
 
 .post-cont
@@ -46,7 +45,7 @@ pre, code {
 
 .selected{
   opacity: 1;
-  transiton: all 1s;
+  transiton: opacity 1s;
 }
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
