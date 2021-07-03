@@ -3,17 +3,11 @@
         {%- include head.html -%}
   <body>
     <main class="page-content" aria-label="Content">
-            <div class="mynavbar">
-                <h2>{{ site.title }}</h2>
-                <div class="hamburger">
-                        <div class="hamburgering"></div>
-                        <div class="hamburgering"></div>
-                        <div class="hamburgering"></div>
-                </div>
+           
                 {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}
         {% endif %}
-        </div>
+       
       <div class="w">
         {{ content }}
         
