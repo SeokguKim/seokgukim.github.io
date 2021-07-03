@@ -50,7 +50,17 @@ pre, code {
 
 .hidden{
   display: none;
-  animation-name: bldecay;
+}
+
+.fadeout{
+    animation-name: bldecay;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.fadein{
+  animation-direction: reverse;
+    animation-name: bldecay;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
