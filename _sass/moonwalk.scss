@@ -4,9 +4,7 @@
 
 @keyframes bldecay {
   from {opacity: 1;}
-  to {opacity: 0;
-  display: none;
-  }
+  to {opacity: 0;}
 }
 
 @keyframes tagslt {
@@ -51,6 +49,7 @@ pre, code {
 }
 
 .hidden{
+  display: none;
   animation-name: bldecay;
   animation-duration: 1s;
   animation-fill-mode: forwards;
