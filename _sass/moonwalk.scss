@@ -195,10 +195,6 @@ mark {
   letter-spacing: 1px;
 }
 
-.nbar-brand{
-color: var(--headings);
-}
-
 .post-date {
   color: var(--secondary-text);
   //margin-bottom: 1rem;
@@ -239,7 +235,7 @@ p code, li code {
     font-weight: bold;
   }
   a:hover {
-    opacity: 0.8;
+    color: var(--links);
   }
 }
 
