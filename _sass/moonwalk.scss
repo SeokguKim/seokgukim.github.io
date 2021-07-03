@@ -291,6 +291,9 @@ margin: 5px;
     -webkit-transform: translate(0,0);
     -webkit-transition: -webkit-transform .2s,background .3s,color .3s;
   }
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .nav-link:hover {
+color: var(--links);
+}
+.brandlogo:hover {
 color: var(--links);
 }
