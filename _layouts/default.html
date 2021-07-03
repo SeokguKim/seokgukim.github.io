@@ -3,9 +3,7 @@
         {%- include head.html -%}
   <body>
     <main class="page-content" aria-label="Content">
-      <div class="w">
-        {{ content }}
-        <div class="mynavbar">
+            <div class="mynavbar">
                 <h2>{{ site.title }}</h2>
                 <div class="hamburger">
                         <div class="hamburgering"></div>
@@ -16,6 +14,9 @@
           {% include toggle_theme_button.html %}
         {% endif %}
         </div>
+      <div class="w">
+        {{ content }}
+        
         <div class="credits">
           {%- if site.theme_config.show_copyright == true -%}
           &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
