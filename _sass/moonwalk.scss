@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
+@keyframes bldecay {
+  from {opacity: 1;}
+  to {opacity: 0;
+  display: none;
+  }
+}
 
 @keyframes tagslt {
   from {opacity: 0.3;}
@@ -41,12 +47,13 @@ pre, code {
   border-color: silver;
   padding: 3px;
   margin: 10px;
-    transition: all 1s linear;
+    
 }
 
 .hidden{
-  opacity: 0;
-  display: none;
+  animation-name: bldecay;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .selected{
