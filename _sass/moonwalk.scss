@@ -258,7 +258,15 @@ p code, li code {
   color: var(--headings);
   background-color: var(--bg);
   width: 100%;
-  height: 10%;
+  transition: top 0.3s;
   position: fixed;
   top: 0;
+}
+.mynavbar a {
+  float: left;
+  display: block;
+  color: var(--headings);
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
