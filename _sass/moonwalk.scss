@@ -3,8 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
 @keyframes bldecay {
-  from {display: block;}
-  to {display: none;}
+   0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    display: none;
+    opacity: 0;
+  }
 }
 
 @keyframes tagslt {
