@@ -252,38 +252,3 @@ p code, li code {
   float: left;
   margin: 1em 0;
 }
-.mynavbar {
-  color: var(--headings);
-  background-color: var(--bg);
-  width: 100%;
-  transition: top 0.3s;
-  position: fixed;
-  top: 0;
-}
-.mynavbar h2{
-  float: left;
-  display: block;
-  color: var(--headings);
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-}
-.hamburger{
-background-color: transparent;
-  padding: 4px;
-  cursor: pointer;
-  display: inline-block;
-  margin: 1em;
-  float: right;
-  border: 2px transparent solid;
-  outline: none;
-  overflow: auto;
-}
-
-.hamburgering{
-  background-color: var(--headings);
-  width: 30px;
-  height: 4px;
-  margin: 6px, 0;
-  border-radius: 2px;
-}
