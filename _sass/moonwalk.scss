@@ -275,7 +275,8 @@ margin: 5px;
 }
 .hamburger{
   background: var(--ham);
-  background-size: 100%;
+  background-size: contain%;
+  background-repeat: no-repeat;
 }
 .brandlogo{
   color: var(--headings);
