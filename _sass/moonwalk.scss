@@ -171,7 +171,9 @@ html.transition *:after {
   padding: 4px;
   cursor: pointer;
   margin: 1em;
-  float: right;
+  position: fixed;
+  right: 0;
+  top: 0;
   border: 2px transparent solid;
   outline: none;
 }
