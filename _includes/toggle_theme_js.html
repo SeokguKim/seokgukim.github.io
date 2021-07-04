@@ -13,15 +13,14 @@
       let currentTheme = document.documentElement.getAttribute('data-theme');
       if (currentTheme === 'dark') {
         transition();
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
       } else {
         transition();
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
       }
+      textChange();
     });
     
      textbutton.addEventListener('click', function (e) {
@@ -37,6 +36,7 @@
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
       }
+       textChange();
     });
 
     let transition = () => {
