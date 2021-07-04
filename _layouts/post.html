@@ -34,7 +34,7 @@ comments: true
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-    var toggle = document.getElementByID('theme-toggle');
+    var toggle = document.getElementById('theme-toggle');
   toggle.addEventListener('click',setTimeout(loadDisqus,1000));
   function loadDisqus() {  
         var d = document, s = d.createElement('script');        
