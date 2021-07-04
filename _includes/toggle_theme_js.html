@@ -15,12 +15,13 @@
         transition();
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
+        document.querySelector('a.theme-toggle').textContent="Dark Mode";
       } else {
         transition();
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
+        document.querySelector('a.theme-toggle').textContent="Light Mode";
+        
       }
     });
     
@@ -31,13 +32,14 @@
         document.querySelector('a.theme-toggle').textContent="Light Mode";
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
+         document.querySelector('a.theme-toggle').textContent="Dark Mode";
+        
       } else {
         transition();
         document.querySelector('a.theme-toggle').textContent="Dark Mode";
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
+       document.querySelector('a.theme-toggle').textContent="Light Mode";
       }
     });
 
