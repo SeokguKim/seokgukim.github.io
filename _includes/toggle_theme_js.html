@@ -15,12 +15,13 @@
         transition();
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
+        textChange();
       } else {
         transition();
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
+        textChange();
       }
-      textChange();
     });
     
      textbutton.addEventListener('click', function (e) {
@@ -30,13 +31,14 @@
         document.querySelector('a.theme-toggle').textContent="Light Mode";
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
+        textChange();
       } else {
         transition();
         document.querySelector('a.theme-toggle').textContent="Dark Mode";
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
+        textChange();
       }
-       textChange();
     });
 
     let transition = () => {
