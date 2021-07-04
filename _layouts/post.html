@@ -18,6 +18,8 @@ comments: true
 {% if site.theme_config.show_footer == true %}
   <footer>
     <div class="dashed"></div>
+  </footer>
+{% endif %}
     {% if page.comments %}
    <div id="disqus_thread"></div>
 <script>
@@ -35,8 +37,6 @@ comments: true
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
-  </footer>
-{% endif %}
   <div style="text-align: center;" class="PageNavigation">
   {% if page.previous.url %}
     <a href="{{page.previous.url}}">&laquo; PREV</a>
