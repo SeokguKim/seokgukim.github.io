@@ -34,17 +34,11 @@ comments: true
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-    var toggle = document.getElementById('theme-toggle');
-  toggle.onclick = setTimeout(loadDisqus,1000);
-  function loadDisqus() {  
-        DISQUS.reset({
-  reload: true,
-        config: function () {  
-    this.page.identifier = '{{ page.id }}';  
-    this.page.url = 'https://seokgukim.github.io{{ page.url }}';
-  }
-        });
-    }
+    
+  document.addEventListener('themeChanged', function (e) {
+        DISQUS.reset({ reload: true, config:disqus_config });
+    };
+  });
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
