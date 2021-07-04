@@ -14,7 +14,7 @@ layout: default
 {% endfor %}
 </p>
 {% for post in site.posts %}
-    <div class="post-cont"
+    <div class="post-cont hidden appear"
      {% if post.tags %}
       {% for tag in post.tags %}
         data-{{ tag }}
