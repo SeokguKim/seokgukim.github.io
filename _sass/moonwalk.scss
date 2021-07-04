@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 html { height: 100%; }
 
@@ -251,6 +251,7 @@ margin: 5px;
   color: var(--headings);
   font-size: 24px;
   display: inline-block;
+  font-family: 'Architects Daughter', cursive;
 }
 .is-hidden {
     opacity: 0;
