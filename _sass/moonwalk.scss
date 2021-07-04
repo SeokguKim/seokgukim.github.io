@@ -34,16 +34,6 @@ pre, code {
     -ms-transition: all 1s;
 }
 
-.post-cont
-{
-  border-radius: 10px;
-  border: 1px solid;
-  border-color: silver;
-  padding: 3px;
-  margin: 10px;
-    
-}
-
 .hidden{
   display: none;
 }
@@ -305,4 +295,13 @@ color: var(--links);
 .brandlogo:hover {
   color: var(--links);
  text-decoration: none;
+}
+.post-cont
+{
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: var(--headings);
+  padding: 3px;
+  margin: 10px;
+    
 }
