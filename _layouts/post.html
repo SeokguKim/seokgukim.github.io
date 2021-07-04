@@ -38,7 +38,12 @@ comments: true
   toggle.onclick = setTimeout(loadDisqus,1000);
   function loadDisqus() {  
         DISQUS.reset({
-  reload: true,});
+  reload: true,
+        config: function () {  
+    this.page.identifier = '{{ page.id }}';  
+    this.page.url = 'https://seokgukim.github.io{{ page.url }}';
+  }
+        });
     }
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
