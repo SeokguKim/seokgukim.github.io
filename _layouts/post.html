@@ -35,9 +35,10 @@ comments: true
     (d.head || d.body).appendChild(s);
     })();
     
-    document.getElementById("theme-toggle").addEventListener("click",setTimeout(loadDisqus,1000));
     var disqus_shortname = "seokgukim";
-   
+   let btn = document.querySelector('.theme-toggle');
+  
+  btn.addEventListener('click',setTimeout(loadDisqus,1000));
     function loadDisqus() {  
     
         var d = document, s = d.createElement('script');        
