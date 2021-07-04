@@ -55,6 +55,10 @@ function filterByTagName(tagName) {
     $(elem).addClass('disappear');
     setTimeout(function(){$(elem).removeClass('appear')},1001);
   }
+    else if (elem.hasAttribute(`data-${tagName}`){
+    $(elem).removeClass('disappear');
+    $(elem).addClass('appear');
+  }
   });
   $(`.tag`).removeClass('selected');
   $(`.tag[data-tag=${tagName}]`).addClass('selected');
