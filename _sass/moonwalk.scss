@@ -282,8 +282,22 @@ color: var(--links);
   border-color: var(--headings);
   padding: 3px;
   margin: 10px;
-    
+  transition: all 1s;
+  -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
 }
+
+.transp{
+opacity: 0;
+  transition: all 1s;
+  -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+}
+
 .tag{
   margin: 5px;
   font-size: 10px;
@@ -300,6 +314,7 @@ color: var(--links);
     -o-transition: all 1s;
     -ms-transition: all 1s;
 }
+
 .selected{
   opacity: 1;
   transition: all 1s;
