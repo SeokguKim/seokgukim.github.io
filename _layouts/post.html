@@ -35,17 +35,6 @@ comments: true
     (d.head || d.body).appendChild(s);
     })();
     
-    var disqus_shortname = "seokgukim";
-   let btn = document.querySelector('.theme-toggle');
-  
-  btn.addEventListener('click',setTimeout(loadDisqus,1000));
-    function loadDisqus() {  
-    
-        var d = document, s = d.createElement('script');        
-        s.src = '//' + disqus_shortname +'.disqus.com/embed.js';        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);  
-    };
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
