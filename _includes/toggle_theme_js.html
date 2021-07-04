@@ -3,9 +3,13 @@
   const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
   if (currentTheme)
     document.documentElement.setAttribute('data-theme', currentTheme);
-
+  if (currentTheme === 'dark') {
+        document.querySelector('a.theme-toggle').textContent="Light Mode";
+      } else {
+        document.querySelector('a.theme-toggle').textContent="Dark Mode";
+      }
   function themeChange() {
-    let button = document.querySelector('.theme-toggle');
+    let button = document.querySelectorAll('.theme-toggle');
     
     button.addEventListener('click', function (e) {
       let currentTheme = document.documentElement.getAttribute('data-theme');
