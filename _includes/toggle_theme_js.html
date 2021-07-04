@@ -20,6 +20,8 @@
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
       }
+      const event = new Event('themeChanged');
+      document.dispatchEvent(event);
     });
 
     let transition = () => {
