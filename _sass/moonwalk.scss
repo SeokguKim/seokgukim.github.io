@@ -152,8 +152,8 @@ html.transition *:after {
 mark {
   padding: 0.4em;
   border-radius: 3px;
-  color: var(--text);
-  background-color: var(--highlight);
+  color: white;
+  background-color: var(--headings);
   font-size: 0.6em;
   letter-spacing: 1px;
 }
