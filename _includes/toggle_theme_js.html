@@ -1,10 +1,10 @@
 <script type="text/javascript">
   window.addEventListener('load', themeChange);
-
+  
   const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
   if (currentTheme)
     document.documentElement.setAttribute('data-theme', currentTheme);
- 
+    
   function themeChange() {
     let button = document.querySelector('.theme-toggle');
     
@@ -20,7 +20,7 @@
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
       }
-    
+    document.getElementByTagName('iframe').contentWindow.location.reload(true);
     });
 
     let transition = () => {
