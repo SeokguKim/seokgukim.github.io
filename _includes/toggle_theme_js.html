@@ -1,17 +1,30 @@
 <script type="text/javascript">
   window.addEventListener('load', themeChange);
+  window.addEventListener('load', textChange);
   const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
   if (currentTheme)
     document.documentElement.setAttribute('data-theme', currentTheme);
-  if (currentTheme === 'dark') {
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
-      } else {
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
-      }
+ 
   function themeChange() {
-    let button = document.querySelectorAll('.theme-toggle');
+    let button = document.querySelector('.theme-toggle');
+     let textbutton = document.querySelector('a.theme-toggle');
     
     button.addEventListener('click', function (e) {
+      let currentTheme = document.documentElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        transition();
+        document.querySelector('a.theme-toggle').textContent="Light Mode";
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        transition();
+        document.querySelector('a.theme-toggle').textContent="Dark Mode";
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+    
+     textbutton.addEventListener('click', function (e) {
       let currentTheme = document.documentElement.getAttribute('data-theme');
       if (currentTheme === 'dark') {
         transition();
@@ -32,6 +45,14 @@
         document.documentElement.classList.remove('transition');
       }, 1000);
     }
+  }
+  
+  function textChange() {
+   if (currentTheme === 'dark') {
+        document.querySelector('a.theme-toggle').textContent="Light Mode";
+      } else {
+        document.querySelector('a.theme-toggle').textContent="Dark Mode";
+      }
   }
 </script>
 
