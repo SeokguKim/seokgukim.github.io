@@ -17,19 +17,10 @@ pre, code {
   font-size: 0.9rem;
 }
 
-
 .hidden{
   display: none;
 }
 
-.selected{
-  opacity: 1;
-  transition: all 1s;
-  -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    -ms-transition: all 1s;
-}
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
 
@@ -299,6 +290,14 @@ color: var(--links);
   display: inline-block;
   cursor: pointer;
   opacity: 0.3;
+  transition: all 1s;
+  -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+}
+.selected{
+  opacity: 1;
   transition: all 1s;
   -moz-transition: all 1s;
     -webkit-transition: all 1s;
