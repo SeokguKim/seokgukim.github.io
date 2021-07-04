@@ -34,8 +34,8 @@ comments: true
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-    
-  document.getElementByID('theme-toggle').addEventListener('click',setTimeout(loadDisqus,1000));
+    var toggle = document.getElementByID('theme-toggle');
+  toggle.addEventListener('click',setTimeout(loadDisqus,1000));
   function loadDisqus() {  
         var d = document, s = d.createElement('script');        
         s.src = '//' + 'seokgukim' +'.disqus.com/embed.js';        
