@@ -20,6 +20,12 @@
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
       }
+    
+        var d = document, s = d.createElement('script');        
+        s.src = '//' + "seokgukim" +'.disqus.com/embed.js';        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);  
+    };
     });
 
     let transition = () => {
