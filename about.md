@@ -2,6 +2,14 @@
 layout: post
 title: About
 ---
+안녕하세요, 김석구입니다.
+
+김석구는 제 본명인 이승록의 한자 중 하나인 錄(록) 자에서 따온 가명입니다.
+영문 이름으로는 간단히 Rock이라고 쓰고 있고요.
+
+현재 저는 서울시립대학교 경영학부에 재학중이고, 경영과학과 프로그래밍에 관심을 두고 있습니다.
+
+적당한 영어나 일본어를 알아들을수 있는 한국인입니다.
 
 Hello, I'm SeokguKim.
 
@@ -11,16 +19,8 @@ You can call me as Rock.
 Currently I'm a collage student majoring in Business Administration in University of Seoul,
 and interested in opreations research and computer programming.
 
-I can understand intermediate English and advanced Japanese, with Korean as my mother tongue.
+I can understand intermediate English and Japanese, with Korean as my mother tongue.
 
-안녕하세요, 김석구입니다.
-
-김석구는 제 본명인 이승록의 한자 중 하나인 錄(록) 자에서 따온 가명입니다.
-영문 이름으로는 간단히 Rock이라고 쓰고 있고요.
-
-현재 저는 서울시립대학교 경영학부에 재학중이고, 경영과학과 프로그래밍에 관심을 두고 있습니다.
-
-적당한 영어나 꽤 복잡한 일본어를 알아들을수 있는 한국인입니다.
 
 こんにちは。キムソックグです。
 
