@@ -17,22 +17,6 @@ pre, code {
   font-size: 0.9rem;
 }
 
-.tag{
-  margin: 5px;
-  font-size: 10px;
-  border-radius: 5px;
-  background-color: #9999B2;
-  color: white;
-  padding: 3px;
-  display: inline-block;
-  cursor: pointer;
-  opacity: 0.3;
-  transition: all 1s;
-  -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    -ms-transition: all 1s;
-}
 
 .hidden{
   display: none;
@@ -304,4 +288,20 @@ color: var(--links);
   padding: 3px;
   margin: 10px;
     
+}
+.tag{
+  margin: 5px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: var(--headings);
+  color: white;
+  padding: 3px;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 1s;
+  -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
 }
