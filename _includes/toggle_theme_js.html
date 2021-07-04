@@ -1,6 +1,6 @@
 <script type="text/javascript">
   window.addEventListener('load', themeChange);
-  window.onload = textChange;
+
   const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
   if (currentTheme)
     document.documentElement.setAttribute('data-theme', currentTheme);
@@ -24,25 +24,6 @@
         localStorage.setItem('theme', 'dark');
       }
     });
-    
-     textbutton.addEventListener('click', function (e) {
-      let currentTheme = document.documentElement.getAttribute('data-theme');
-      if (currentTheme === 'dark') {
-        transition();
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-         
-        
-      } else {
-        transition();
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-      }
-    });
 
     let transition = () => {
       document.documentElement.classList.add('transition');
@@ -52,12 +33,5 @@
     }
   }
   
-  function textChange() {
-   if (currentTheme === 'dark') {
-        document.querySelector('a.theme-toggle').textContent="Light Mode";
-      } else {
-        document.querySelector('a.theme-toggle').textContent="Dark Mode";
-      }
-  }
 </script>
 
