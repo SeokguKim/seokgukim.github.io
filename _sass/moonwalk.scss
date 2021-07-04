@@ -289,13 +289,34 @@ color: var(--links);
     -ms-transition: all 1s;
 }
 
-.transp{
-opacity: 0;
-  transition: all 1s;
-  -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    -ms-transition: all 1s;
+.appear {
+  animation: fade-in 1s;
+  animation-fill-mode: forwards;
+  display: flex;
+}
+
+.disappear {
+  animation: fade-out 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .tag{
