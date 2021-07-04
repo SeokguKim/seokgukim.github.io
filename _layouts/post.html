@@ -35,7 +35,7 @@ comments: true
     (d.head || d.body).appendChild(s);
     })();
     
-  document.addEventListener('themeChanged', function () {setTimeout(dreset, 500)});
+  document.addEventListener('themeChanged', function () {setTimeout(dreset, 200)});
   function dreset (){    
   if (document.readyState == 'complete') {
       DISQUS.reset({ reload: true, config: disqus_config });
