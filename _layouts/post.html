@@ -35,18 +35,15 @@ comments: true
     (d.head || d.body).appendChild(s);
     })();
     
-    document.getElementById('theme-toggle').addEventListener('click',loadDisqus)
+    document.getElementById('theme-toggle').addEventListener('click',setTimeout(loadDisqus,1000)));
     var disqus_shortname = "seokgukim";
-    var is_disqus_loaded = false;
+   
     function loadDisqus() {  
-      if (!is_disqus_loaded){
-        is_disqus_loaded = true;
+    
         var d = document, s = d.createElement('script');        
         s.src = '//' + disqus_shortname +'.disqus.com/embed.js';        
         s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      }
-        
+        (d.head || d.body).appendChild(s);  
     };
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
