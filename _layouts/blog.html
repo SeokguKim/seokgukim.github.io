@@ -50,14 +50,14 @@ $("[data-tag]").click((e) => {
 })
 
 function filterByTagName(tagName) {
-  $('.hidden').removeClass('hidden');
   $('.post-cont').each((index, elem) => {
     if (!elem.hasAttribute(`data-${tagName}`)) {
-      $(elem).addClass('hidden');
-    }
+    $(elem).addClass('disappear');
+    setTimeout(function(){$(elem).removeClass('appear')},1001);
+  }
   });
-  $(`.tag`).removeClass('selected');
-  $(`.tag[data-tag=${tagName}]`).addClass('selected');
+  $(`.tag[data-tag=${tagName}]`).removeClass('disappear');
+  $(`.tag[data-tag=${tagName}]`).addClass('appear');
 }
 
   $(document).ready(function() {
