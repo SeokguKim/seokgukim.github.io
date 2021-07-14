@@ -23,3 +23,5 @@ I can understand intermediate English and Japanese, in addition to Korean.
 現在僕はソウル市立大学の経営学部で勉強中で、経営科学とプログラミングに興味を持ってます。
 
 あるほどの英語と日本語は聞き取れる韓国人です。
+
+CSS, Javascript, Python, Google Script, VBA 
