@@ -14,8 +14,8 @@ body {
 }
 pre, code {
   font-family: "Anonymous Pro", "Courier New", monospace;
-  font-size: 0.9rem;
-  background-color: var(--bg-code);
+  font-size: 0.9rem !important;
+  background-color: var(--bg-code) !important;
   color: var(--text) !important;
 }
 
