@@ -40,3 +40,5 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  
+google_analytics: UA—28054553-9
