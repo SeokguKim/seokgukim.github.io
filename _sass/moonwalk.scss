@@ -16,7 +16,6 @@ pre, code {
   font-family: "Anonymous Pro", "Courier New", monospace;
   font-size: 0.9rem;
   background-color: var(--bg-code);
-  color: var(--text);
 }
 
 .hidden{
@@ -184,7 +183,7 @@ mark {
 p code, li code {
   background-color: var(--bg-secondary);
   padding: 0.2rem;
-  color: var(--code-text);
+  color: var(--text);
   font-weight: bold;
 }
 .post-title {
