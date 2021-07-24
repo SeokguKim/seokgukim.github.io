@@ -5,4 +5,5 @@ python: Python
 jekyll: Jekyll
 gbg: Game Builder Garage
 game: Games
+cpp: C++
 ...
