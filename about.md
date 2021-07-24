@@ -32,4 +32,6 @@ I can understand intermediate English and Japanese, in addition to Korean.
 
 CSS, Javascript, Python, C++, Google Script, VBA 
 
->Email: rokja97@naver.com
+## Contact
+
+Email: rokja97@naver.com
