@@ -1,7 +1,7 @@
 ---
 title: 기대작 PROJECT MOD
 layout: post
-tags: [blog, games]
+tags: [blog, game]
 ---
 ### PROJECT MOD
 ![image](https://user-images.githubusercontent.com/43718966/128590305-16404a34-909b-4887-8ba5-4507c7d677a8.png)
