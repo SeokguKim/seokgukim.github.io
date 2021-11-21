@@ -5,7 +5,7 @@ navbar_entries:
   - title: Blog
     url: blog
 
-project_entries:
+#project_entries:
 #  - title: TRPG Design
 #    url: https://docs.google.com/spreadsheets/d/1bZsdc8kE3m6W45AwfkBIyDF01H2xWQ78KB9v0FH0A4c/edit?usp=sharing
 #    desc: TRPG 기획
