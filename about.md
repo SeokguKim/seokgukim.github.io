@@ -36,4 +36,4 @@ CSS, Javascript, Python, C++, Google Script, VBA
 
 Email: <rokja97@naver.com>
 
-LinkedIn: <https://www.linkedin.com/in/seungroklee549/>
+[LinkedIn](https://www.linkedin.com/in/seungroklee549/)
