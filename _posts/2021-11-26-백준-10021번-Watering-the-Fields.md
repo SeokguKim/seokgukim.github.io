@@ -11,11 +11,11 @@ tags: [cpp]
 > Unfortunately, the contractor who is helping FJ install his irrigation system refuses to install any pipe unless its cost (squared Euclidean length) is at least C (1 <= C <= 1,000,000).
 > Please help FJ compute the minimum amount he will need pay to connect all his fields with a network of pipes.
 > 
-> Input
-> Line 1: The integers N and C.
+> Input  
+> Line 1: The integers N and C.  
 > Lines 2..1+N: Line i+1 contains the integers xi and yi.
 > 
-> Output
+> Output  
 > Line 1: The minimum cost of a network of pipes connecting the fields, or -1 if no such network can be built.
 
 ### 우선순위 큐와 최소 스패닝 트리
