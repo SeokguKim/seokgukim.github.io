@@ -30,7 +30,7 @@ I can understand intermediate English and Japanese, in addition to Korean.
 
 ## Availabile Things
 
-CSS, Javascript, Python, C++, Google Script, VBA 
+C++, CSS, Javascript, Python, Google Script, VBA 
 
 ## Contact
 
