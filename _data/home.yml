@@ -17,9 +17,6 @@ footer_entries:
   - title: Homepage
     url: https://seokgukim.github.io
 
-  - title: Twitter
-    url: https://twitter.com/SeokguKim
-
 misc_entries:
   - title: this is an example vertical list
     url: false
