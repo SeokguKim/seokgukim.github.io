@@ -6,9 +6,9 @@ navbar_entries:
     url: blog
 
 project_entries:
-  - title: ▼ New Blog ▼
+  - title: New Blog
     url: https://velog.io/@seokgukim
-    desc: 새 글들은 새 블로그에서
+    desc: 새 글은 새 블로그로
     highlight : ※
 
 old_project_entries:
