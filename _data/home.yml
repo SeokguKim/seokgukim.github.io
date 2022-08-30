@@ -9,6 +9,7 @@ project_entries:
   - title: ▼ New Blog ▼
     url: https://velog.io/@seokgukim
     desc: 새 글들은 새 블로그에서
+    highlight : ※
 
 old_project_entries:
 
