@@ -18,8 +18,8 @@ footer_entries:
     url: https://seokgukim.github.io
 
 misc_entries:
-  - title: this is an example vertical list
-    url: false
+  - title: ▼ New Blog ▼
+    url: https://velog.io/@seokgukim
 
   - title: you can show or hide using a boolean flag in _config.yml
     url: false
