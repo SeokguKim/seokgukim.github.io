@@ -28,10 +28,6 @@ I can understand intermediate English and Japanese, in addition to Korean.
 
 あるほどの英語と日本語は聞き取れる韓国人です。
 
-## Availabile Things
-
-C++, CSS, Javascript, Python, Google Script, VBA 
-
 ## Contact
 
 <rokja97@naver.com>
