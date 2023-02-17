@@ -14,13 +14,12 @@ project_entries:
   - title: Twitter
     url: https://twitter.com/SeokguKim
     desc: My Twitter seemingly useless
-    
+
+old_project_entries:
   - title: Counter X
     url: https://maplestoryworlds.nexon.com/ko/play/747e905632384fdbb9ef1f358bb49314/
     desc: A Megaman X like game I made
     highlight: MSW
-
-old_project_entries:
 
 footer_entries:
   - title: Homepage
