@@ -11,6 +11,14 @@ project_entries:
     desc: My Velog Page
     highlight : ◆
 
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/seungroklee549/
+    desc: My LinkedIn Profile
+
+  - title: YouTube
+    url: https://www.youtube.com/@seokgukim
+    desc: My YouTube Channel
+
   - title: Twitter
     url: https://twitter.com/SeokguKim
     desc: My Twitter seemingly useless
@@ -20,13 +28,18 @@ old_project_entries:
     url: https://maplestoryworlds.nexon.com/ko/play/747e905632384fdbb9ef1f358bb49314/
     desc: A Megaman X like game I made
     highlight: MSW
+    
+  - title: Grace Dragon of Divinepeak
+    url: https://maplestoryworlds.nexon.com/ko/play/de5289abdad148999909dd714273112c/badge
+    desc: A platformer action game I made
+    highlight: MSW
 
 footer_entries:
   - title: Homepage
     url: https://seokgukim.github.io
  
-  - title: Velog
-    url: https://velog.io/@seokgukim
+  - title: GitHub
+    url: https://github.com/SeokguKim
 
 misc_entries:
 
