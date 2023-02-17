@@ -19,15 +19,15 @@ theme_config:
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
   show_old_projects: true # show old projects as cards, add in _data/home.yml
+  show_blog: true # show blog posts added in _posts
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   # options for "home" page
   home:
     title_projects: External Links
-    title_misc_list: Details
+    title_old_projects: Works
+    title_misc_list: Misc
     title_blog: Blog
-    title_old_projects: Others
 
 disqus:
     shortname: seokgukim
