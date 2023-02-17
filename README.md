@@ -8,6 +8,8 @@
 
 적당한 영어나 일본어를 알아들을수 있는 한국인입니다.
 
+---
+
 Hello, I’m SeokguKim.
 
 SeokguKim is a nickname made from chinese letter 錄, which is included in my actual name, Seungrok Lee. You can call me as Rock.
@@ -15,6 +17,8 @@ SeokguKim is a nickname made from chinese letter 錄, which is included in my ac
 I have graduated from University of Seoul, and interest in opreations research and computer programming.
 
 I can understand intermediate English and Japanese, in addition to Korean.
+
+---
 
 こんにちは。キムソックグです。
 
