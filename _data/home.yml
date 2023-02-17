@@ -10,11 +10,10 @@ project_entries:
     url: https://velog.io/@seokgukim
     desc: My Velog Page
     highlight : ◆
-    
+
   - title: [MSW]Counter X
     url: https://maplestoryworlds.nexon.com/ko/play/747e905632384fdbb9ef1f358bb49314/
     desc: Megaman X like game I made
-    highlight : ◆
 
 old_project_entries:
 
