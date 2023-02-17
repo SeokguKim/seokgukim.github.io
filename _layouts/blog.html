@@ -5,7 +5,6 @@ layout: default
 <header>
   <h1>Blog</h1>
 </header>
-<p>잡다한 글을 모아두는 곳</p>
 <p>
 {% for tag in site.data.tags %}
   <span class="tag" data-tag="{{tag}}">
@@ -22,9 +21,6 @@ layout: default
     {% endif %}>
       <ul>
 <li class="post-list-item">
-     <span class="home-date">
-          {{ post.date | date: site.theme_config.date_format }}»
-        </span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>
       <p>
