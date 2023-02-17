@@ -12,7 +12,7 @@ Hello, I’m SeokguKim.
 
 SeokguKim is a nickname made from chinese letter 錄, which is included in my actual name, Seungrok Lee. You can call me as Rock.
 
-I have a major in Business in University of Seoul, and interest in opreations research and computer programming.
+I have graduated from University of Seoul, and interest in opreations research and computer programming.
 
 I can understand intermediate English and Japanese, in addition to Korean.
 
