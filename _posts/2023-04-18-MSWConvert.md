@@ -1,6 +1,6 @@
 ---
 title: MSWConvert
-layout: posts
+layout: post
 tags: [blog, pmod, cpp, dev]
 ---
 ### 이전부터 있던 수요
