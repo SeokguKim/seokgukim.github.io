@@ -6,6 +6,11 @@ navbar_entries:
   - title: Blog
     url: blog
 
+project_entries:
+  
+  - title: null
+    url: https://seokgukim.github.io
+
 old_project_entries:
 
   - title: Counter X
