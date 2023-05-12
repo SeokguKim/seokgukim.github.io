@@ -21,7 +21,7 @@ project_entries:
 
   - title: Twitter
     url: https://twitter.com/SeokguKim
-    desc: My Twitter seemingly useless
+    desc: My Twitter Account
 
 old_project_entries:
   - title: Counter X
@@ -29,7 +29,7 @@ old_project_entries:
     desc: A Megaman X like game I made
     highlight: MSW
     
-  - title: Grace Dragon of Divinepeak
+  - title: GDDP
     url: https://maplestoryworlds.nexon.com/ko/play/de5289abdad148999909dd714273112c/badge
     desc: A platformer action game I made
     highlight: MSW
