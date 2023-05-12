@@ -33,11 +33,13 @@ I can understand intermediate English and Japanese, in addition to Korean.
 あるほどの英語と日本語は聞き取れる韓国人です。
 
 ## Bio
-#### 03.2016 ~ 02.2022
+**03.2016 ~ 02.2022**  
 Bachelor of Business Administraion (University of Seoul)
-#### 02.2022
-CI2021 Coummnity Award (Nexon Korea)  
-#### 10.2022 ~ 12.2022
+
+**02.2022**  
+CI2021 Coummnity Award (Nexon Korea)
+
+**10.2022 ~ 12.2022**  
 MapleStory Worlds EDU Creator Camp (LikeLion)
 
 ## Contact
