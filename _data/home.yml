@@ -1,13 +1,13 @@
 navbar_entries:
+
   - title: About
     url: about
 
   - title: Blog
     url: blog
 
-project_entries:
-
 old_project_entries:
+
   - title: Counter X
     url: https://maplestoryworlds.nexon.com/ko/play/747e905632384fdbb9ef1f358bb49314/
     desc: A Megaman X like game I made
@@ -19,11 +19,12 @@ old_project_entries:
     highlight: MSW
 
 footer_entries:
+
   - title: GitHub
     url: https://github.com/SeokguKim
     
  - title: LinkedIn
-    url: https://www.linkedin.com/in/seungroklee549/
+    url: https://www.linkedin.com/in/seungroklee549
 
   - title: YouTube
     url: https://www.youtube.com/@seokgukim
@@ -60,5 +61,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
-
