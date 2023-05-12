@@ -7,10 +7,10 @@ navbar_entries:
     url: blog
 
 project_entries:
-  
+
   - title: null
     url: https://seokgukim.github.io
-
+    
 old_project_entries:
 
   - title: Counter X
@@ -30,13 +30,13 @@ footer_entries:
     
  - title: LinkedIn
     url: https://www.linkedin.com/in/seungroklee549
-
+    
   - title: YouTube
     url: https://www.youtube.com/@seokgukim
-
+    
   - title: Twitter
     url: https://twitter.com/SeokguKim
-
+    
 misc_entries:
 
   - title: you can show or hide using a boolean flag in _config.yml
