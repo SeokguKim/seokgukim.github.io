@@ -2,7 +2,7 @@
 layout: post
 title: About
 ---
-## SeokguKim
+## It's me, SeokguKim!
 
 안녕하세요, 김석구입니다.
 
@@ -31,6 +31,14 @@ I can understand intermediate English and Japanese, in addition to Korean.
 現在僕はソウル市立大学の経営学部を卒業してから、経営科学とプログラミングに興味を持ってます。
 
 あるほどの英語と日本語は聞き取れる韓国人です。
+
+## Bio
+#### 03.2016 ~ 02.2022
+Bachelor of Business Administraion (University of Seoul)
+#### 02.2022
+CI2021 Coummnity Award (Nexon Korea)  
+#### 10.2022 ~ 12.2022
+MapleStory Worlds EDU Creator Camp (LikeLion)
 
 ## Contact
 
