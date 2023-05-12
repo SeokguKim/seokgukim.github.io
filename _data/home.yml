@@ -6,22 +6,6 @@ navbar_entries:
     url: blog
 
 project_entries:
-  - title: Velog
-    url: https://velog.io/@seokgukim
-    desc: My Velog Page
-    highlight : ◆
-
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/seungroklee549/
-    desc: My LinkedIn Profile
-
-  - title: YouTube
-    url: https://www.youtube.com/@seokgukim
-    desc: My YouTube Channel
-
-  - title: Twitter
-    url: https://twitter.com/SeokguKim
-    desc: My Twitter Account
 
 old_project_entries:
   - title: Counter X
@@ -35,11 +19,17 @@ old_project_entries:
     highlight: MSW
 
 footer_entries:
-  - title: Homepage
-    url: https://seokgukim.github.io
- 
   - title: GitHub
     url: https://github.com/SeokguKim
+    
+ - title: LinkedIn
+    url: https://www.linkedin.com/in/seungroklee549/
+
+  - title: YouTube
+    url: https://www.youtube.com/@seokgukim
+
+  - title: Twitter
+    url: https://twitter.com/SeokguKim
 
 misc_entries:
 
