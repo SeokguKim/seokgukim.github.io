@@ -59,6 +59,7 @@ VS Code는 다행히도 GUI 기반이다보니 몇 번의 클릭 정도로 해�
 대충 닷파일 설정은 이렇다.
 
 ```lua
+--init.lua
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -136,10 +137,7 @@ require"nvim-treesitter.configs".setup {
   },
 }
 
---fzf Ag
-vim.g.ackprg = "ag --vimgrep"
-
---NvimTree and Status Line
+--Status Line
 
 vim.opt.termguicolors = true
 
