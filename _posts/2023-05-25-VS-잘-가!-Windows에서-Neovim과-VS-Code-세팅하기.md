@@ -1,7 +1,7 @@
 ---
 title: VS 잘 가! Windows에서 Neovim과 VS Code 세팅하기
 layout: post
-tags: [blog, dev, cpp]
+tags: [blog, dev, nvim, cpp]
 ---
 ### Visual Studio는 더럽다
 내가 뭘 모를 시절엔 그냥 Microsoft의 Viusal Studio가 최고인줄 알았다.  
