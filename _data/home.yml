@@ -13,6 +13,10 @@ project_entries:
     
 old_project_entries:
 
+  - title: ShortSwordSlicer
+    url: https://github.com/SeokguKim/ShortSwordSlicer
+    desc: A tool for effective MSW
+    
   - title: Counter X
     url: https://maplestoryworlds.nexon.com/ko/play/747e905632384fdbb9ef1f358bb49314/
     desc: A Megaman X like game I made
