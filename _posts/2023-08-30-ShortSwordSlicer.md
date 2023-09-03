@@ -9,7 +9,7 @@ tags: [dev, cpp, pmod]
 
 아직 사용례가 적어 확인은 필요하겠지만 유의미하다.
 
-[소개 영상](https://youtu.be/eSG3yVFpKTQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eSG3yVFpKTQ?si=BD2RlONP8kC0RGnV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### 앞으로 어떻게 할까
 아마 유지 보수 자체는 내가 전담하게 될 듯 하다.
