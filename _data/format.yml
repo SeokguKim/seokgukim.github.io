@@ -10,4 +10,6 @@ cpp: C++
 pmod: MapleStory Worlds
 dev: Development
 cp: Competitive Programming
+atcoder: AtCoder
+algorithms: Algorithms
 ...
