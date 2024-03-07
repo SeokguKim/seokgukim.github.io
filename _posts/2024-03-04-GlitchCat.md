@@ -1,7 +1,7 @@
 ---
 title: GlitchCat
 layout: post
-tags: [python, dev]
+tags: [glitchcat, python, dev]
 ---
 ### 챗봇을 만들었다.
 
