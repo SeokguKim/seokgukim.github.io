@@ -92,7 +92,7 @@ sudo gem install debase -v0.2.5.beta2 -- --with-cflags="-Wno-incompatible-functi
 
 이제 디버깅을 할 수 있습니다!
 
-![ruby_debug](rb.png)
+![rb](https://github.com/user-attachments/assets/a98f4320-db41-4324-8aa3-2f2c553a0a6a)
 
 환경 세팅 이후 본격적인 코드 작성은 다음에 해봅시다...
 
